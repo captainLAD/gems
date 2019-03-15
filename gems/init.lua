@@ -494,7 +494,7 @@ minetest.register_node("gems:amethyst_ore", {
 
 minetest.register_node( "gems:ruby_block", {
 	description = "ruby block",
-	tile_images = { "ruby_ruby_block.png" },
+	tiles = { "ruby_ruby_block.png" },
 	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
@@ -502,7 +502,7 @@ minetest.register_node( "gems:ruby_block", {
 
 minetest.register_node( "gems:emerald_block", {
 	description = "emerald block",
-	tile_images = { "gems_emerald_block.png" },
+	tiles = { "gems_emerald_block.png" },
 	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
@@ -510,7 +510,7 @@ minetest.register_node( "gems:emerald_block", {
 
 minetest.register_node( "gems:sapphire_block", {
 	description = "sapphire block",
-	tile_images = { "gems_sapphire_block.png" },
+	tiles = { "gems_sapphire_block.png" },
 	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
@@ -518,7 +518,7 @@ minetest.register_node( "gems:sapphire_block", {
 
 minetest.register_node( "gems:amethyst_block", {
 	description = "amethyst block",
-	tile_images = { "gems_amethyst_block.png" },
+	tiles = { "gems_amethyst_block.png" },
 	is_ground_content = false,
 	groups = {cracky=3},
 	sounds = default.node_sound_stone_defaults(),
@@ -530,28 +530,28 @@ minetest.register_node( "gems:amethyst_block", {
   
 minetest.register_craftitem( "gems:ruby_gem", {
 	description = "ruby gem",
-	tile_images = { "ruby:ruby_gem" },
+	tiles = { "ruby:ruby_gem" },
 	inventory_image = "ruby_ruby_gem.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:emerald_gem", {
 	description = "emerald gem",
-	tile_images = { "gems:emerald_gem" },
+	tiles = { "gems:emerald_gem" },
 	inventory_image = "gems_emerald_gem.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:sapphire_gem", {
 	description = "sapphire gem",
-	tile_images = { "gems:sapphire_gem" },
+	tiles = { "gems:sapphire_gem" },
 	inventory_image = "gems_sapphire_gem.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:amethyst_gem", {
 	description = "amethyst gem",
-	tile_images = { "gems:amethyst_gem" },
+	tiles = { "gems:amethyst_gem" },
 	inventory_image = "gems_amethyst_gem.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 	
@@ -563,7 +563,7 @@ minetest.register_craftitem( "gems:amethyst_gem", {
 
 minetest.register_craftitem( "gems:stone_rod", {
 	description = "stone rod",
-	tile_images = { "gems:stone_rod" },
+	tiles = { "gems:stone_rod" },
 	inventory_image = "gems_stone_rod.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
@@ -574,28 +574,28 @@ minetest.register_craftitem( "gems:stone_rod", {
 
 minetest.register_craftitem( "gems:ruby_pick_head", {
 	description = "ruby pick head",
-	tile_images = { "gems:ruby_pick_head" },
+	tiles = { "gems:ruby_pick_head" },
 	inventory_image = "gems_ruby_pick_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:ruby_axe_head", {
 	description = "ruby axe head",
-	tile_images = { "gems:ruby_axe_head" },
+	tiles = { "gems:ruby_axe_head" },
 	inventory_image = "gems_ruby_axe_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:ruby_shovel_head", {
 	description = "ruby shovel head",
-	tile_images = { "gems:ruby_shovel_head" },
+	tiles = { "gems:ruby_shovel_head" },
 	inventory_image = "gems_ruby_shovel_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:ruby_sword_blade", {
 	description = "ruby blade",
-	tile_images = { "gems:ruby_sword_blade" },
+	tiles = { "gems:ruby_sword_blade" },
 	inventory_image = "gems_ruby_sword_blade.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
@@ -606,28 +606,28 @@ minetest.register_craftitem( "gems:ruby_sword_blade", {
 
 minetest.register_craftitem( "gems:amethyst_pick_head", {
 	description = "amethyst pick head",
-	tile_images = { "gems:amethyst_pick_head" },
+	tiles = { "gems:amethyst_pick_head" },
 	inventory_image = "gems_amethyst_pick_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:amethyst_axe_head", {
 	description = "amethyst axe head",
-	tile_images = { "gems:amethyst_axe_head" },
+	tiles = { "gems:amethyst_axe_head" },
 	inventory_image = "gems_amethyst_axe_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:amethyst_shovel_head", {
 	description = "amethyst shovel head",
-	tile_images = { "gems:amethyst_shovel_head" },
+	tiles = { "gems:amethyst_shovel_head" },
 	inventory_image = "gems_amethyst_shovel_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:amethyst_sword_blade", {
 	description = "amethyst blade",
-	tile_images = { "gems:amethyst_sword_blade" },
+	tiles = { "gems:amethyst_sword_blade" },
 	inventory_image = "gems_amethyst_sword_blade.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
@@ -638,28 +638,28 @@ minetest.register_craftitem( "gems:amethyst_sword_blade", {
 
 minetest.register_craftitem( "gems:emerald_pick_head", {
 	description = "emerald pick head",
-	tile_images = { "gems:emerald_pick_head" },
+	tiles = { "gems:emerald_pick_head" },
 	inventory_image = "gems_emerald_pick_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:emerald_axe_head", {
 	description = "emerald axe head",
-	tile_images = { "gems:emerald_axe_head" },
+	tiles = { "gems:emerald_axe_head" },
 	inventory_image = "gems_emerald_axe_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:emerald_shovel_head", {
 	description = "emerald shovel head",
-	tile_images = { "gems:emerald_shovel_head" },
+	tiles = { "gems:emerald_shovel_head" },
 	inventory_image = "gems_emerald_shovel_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:emerald_sword_blade", {
 	description = "emerald blade",
-	tile_images = { "gems:emerald_sword_blade" },
+	tiles = { "gems:emerald_sword_blade" },
 	inventory_image = "gems_emerald_sword_blade.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
@@ -670,28 +670,28 @@ minetest.register_craftitem( "gems:emerald_sword_blade", {
 
 minetest.register_craftitem( "gems:sapphire_pick_head", {
 	description = "sapphire pick head",
-	tile_images = { "gems:sapphire_pick_head" },
+	tiles = { "gems:sapphire_pick_head" },
 	inventory_image = "gems_sapphire_pick_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:sapphire_axe_head", {
 	description = "sapphire axe head",
-	tile_images = { "gems:sapphire_axe_head" },
+	tiles = { "gems:sapphire_axe_head" },
 	inventory_image = "gems_sapphire_axe_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:sapphire_shovel_head", {
 	description = "sapphire shovel head",
-	tile_images = { "gems:sapphire_shovel_head" },
+	tiles = { "gems:sapphire_shovel_head" },
 	inventory_image = "gems_sapphire_shovel_head.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:sapphire_sword_blade", {
 	description = "sapphire blade",
-	tile_images = { "gems:sapphire_sword_blade" },
+	tiles = { "gems:sapphire_sword_blade" },
 	inventory_image = "gems_sapphire_sword_blade.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
@@ -1837,7 +1837,7 @@ minetest.register_craft({
 
 minetest.register_craftitem( "gems:diamond_cutting_wheel", {
 	description = "diamond cutting wheel",
-	tile_images = { "gems:diamond_cutting_wheel" },
+	tiles = { "gems:diamond_cutting_wheel" },
 	inventory_image = "diamond_cutting_wheel.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
@@ -1846,28 +1846,28 @@ minetest.register_craftitem( "gems:diamond_cutting_wheel", {
 
 minetest.register_craftitem( "gems:raw_amethyst", {
 	description = "raw amethyst",
-	tile_images = { "gems:raw_amethyst" },
+	tiles = { "gems:raw_amethyst" },
 	inventory_image = "gems_raw_amethyst.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:raw_ruby", {
 	description = "raw ruby",
-	tile_images = { "gems:raw_ruby" },
+	tiles = { "gems:raw_ruby" },
 	inventory_image = "gems_raw_ruby.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:raw_emerald", {
 	description = "raw emerald",
-	tile_images = { "gems:raw_emerald" },
+	tiles = { "gems:raw_emerald" },
 	inventory_image = "gems_raw_emerald.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
 
 minetest.register_craftitem( "gems:raw_sapphire", {
 	description = "raw sapphire",
-	tile_images = { "gems:raw_sapphire" },
+	tiles = { "gems:raw_sapphire" },
 	inventory_image = "gems_raw_sapphire.png",
 	on_place_on_ground = minetest.craftitem_place_item,
 })
